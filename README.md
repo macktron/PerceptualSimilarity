@@ -1,4 +1,21 @@
 
+# New material
+
+### Quick start
+
+1. install and initialize the pipenv
+```
+pipenv install
+```
+
+2. Compare two images with eachother using the lpips_2imgs.py script. 
+```
+pipenv run python lpips_2imgs.py -p0 imgs/CT_scan_images/png_img/L506_40_target.png -p1 imgs/CT_scan_images/png_img/L506_40_input.png
+```
+
+
+# Old material
+
 ## Perceptual Similarity Metric and Dataset [[Project Page]](http://richzhang.github.io/PerceptualSimilarity/)
 
 **The Unreasonable Effectiveness of Deep Features as a Perceptual Metric**  
@@ -22,6 +39,7 @@ d = loss_fn_alex(img0, img1)
 ```
 
 More thorough information about variants is below. This repository contains our **perceptual metric (LPIPS)** and **dataset (BAPPS)**. It can also be used as a "perceptual loss". This uses PyTorch; a Tensorflow alternative is [here](https://github.com/alexlee-gk/lpips-tensorflow).
+
 
 
 **Table of Contents**<br>
